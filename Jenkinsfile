@@ -10,7 +10,9 @@ pipeline {
         
         stage('Copy Files') {
             steps {
-                sh 'scp -r /home/ec2-user ubuntu@3.80.125.254:/var/www/html'
+                sshagent(['jenkins-private-ssh-key']) {
+                    sh 'scp -r /home/ec2-user ubuntu@3.80.125.254:/var/www/html'
+                }
             }
         }
     }
