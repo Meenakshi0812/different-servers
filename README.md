@@ -23,3 +23,8 @@ id_rsa.pub   ->public key  -> used for ssh connection
 - sudo systemctl enable jenkins
 - sudo systemctl start jenkins
 -  sudo systemctl status jenkins
+
+## how to install apache2 on ubuntu
+- sudo apt update
+- sudo apt install apache2
+- sudo systemctl status apache2
