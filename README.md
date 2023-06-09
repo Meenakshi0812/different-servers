@@ -13,14 +13,13 @@ id_rsa       ->private key -> used for authentication
 id_rsa.pub   ->public key  -> used for ssh connection
 
 ## how to install jenkins on amazon linux
-sudo yum update –y
-sudo wget -O /etc/yum.repos.d/jenkins.repo \
+- sudo yum update –y
+- sudo wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
-    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
-    sudo yum upgrade
-    sudo dnf install java-11-amazon-corretto -y
-    sudo yum install jenkins -y
-    sudo systemctl enable jenkins
-    sudo systemctl start jenkins
-    sudo systemctl status jenkins
-    
+- sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+- sudo yum upgrade
+- sudo dnf install java-11-amazon-corretto -y
+- sudo yum install jenkins -y
+- sudo systemctl enable jenkins
+- sudo systemctl start jenkins
+-  sudo systemctl status jenkins
