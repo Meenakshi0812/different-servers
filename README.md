@@ -8,3 +8,6 @@
 - SSH Agent plugin needs to download
 - provide ssh credentials in the kind ssh user name and private key . copy the private key of application server(id_rsa) in jenkins credentials . remaining details like  id and name of ur choice.
 - use scp command to transfer files from one server to another server
+#### note:
+id_rsa       ->private key -> used for authentication
+id_rsa.pub   ->public key  -> used for ssh connection
