@@ -6,5 +6,5 @@
 - jenkins installed and running
 - jenkins public key(id_rsa.pub) needs to copy and paste in application server's authorized_keys file
 - SSH Agent plugin needs to download
-- provide ssh credentials in the kind ssh user name and private key . copy the private key of application server(id_rsa) in jenkins credentials and gie id and name of ur choice.
+- provide ssh credentials in the kind ssh user name and private key . copy the private key of application server(id_rsa) in jenkins credentials . remaining details like  id and name of ur choice.
 - use scp command to transfer files from one server to another server
